@@ -9,8 +9,14 @@ public class lacos {
         int numeroMaximoDeClones = 40;
 
         while (numeroDeClones <= numeroMaximoDeClones){
-            System.out.println("O naruto fez um clone das sombras" + numeroDeClones);
+            System.out.println("O naruto fez um clone das sombras " + numeroDeClones);
             numeroDeClones++;
+        }
+        
+        //FOR
+
+        for (int iCount = 0; iCount <= numeroDeClones ; iCount++) {
+            System.out.println("O naruto fez um clone das sombras: " + iCount);
         }
     }
 }
