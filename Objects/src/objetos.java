@@ -8,15 +8,12 @@ public class objetos {
         System.out.println(Naruto.nome);
 
         //Sasuke
-        Ninja Sasuke = new Ninja();
+        Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
-        Sasuke.aldeia= "Aldeia da Folha";
-        Sasuke.idade = 20;
-        Sasuke.SharinganAtivado();
+        Sasuke.idade = 19;
+        Sasuke.aldeia = "Aldeia da Folha";
         System.out.println(Sasuke.nome);
-        System.out.println(Sasuke.euSouUmNinja());
-        String chamandoMetodo = Sasuke.euSouUmNinja();
-        System.out.println(chamandoMetodo);
+        Sasuke.SharinganAtivado();
 
         //Sakura Harumi
         Ninja Sakura = new Ninja();
